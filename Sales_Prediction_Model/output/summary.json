@@ -1,0 +1,26 @@
+{
+  "best_model": "Linear Regression",
+  "selection_criterion": "lowest RMSE on held-out test set",
+  "metrics": {
+    "R2": 0.9236,
+    "MAE": 46.14,
+    "RMSE": 58.58
+  },
+  "all_results": {
+    "Linear Regression": {
+      "R2": 0.9236,
+      "MAE": 46.1371,
+      "RMSE": 58.5755
+    },
+    "Decision Tree": {
+      "R2": 0.8471,
+      "MAE": 63.8662,
+      "RMSE": 82.8906
+    },
+    "Random Forest": {
+      "R2": 0.8965,
+      "MAE": 53.4459,
+      "RMSE": 68.1852
+    }
+  }
+}
